@@ -1,0 +1,127 @@
+body {
+    background: #333;
+    background-color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: wavy;
+}
+
+li {
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+
+.start-text h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+
+.start-inner-text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.start-inner-text h2 {
+    display: none;
+    transition: all 1s ease;
+}
+
+.start {
+    background-image: url(/static/images/Legacy_1\(NXL\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    position: sticky;
+}
+
+.introduction {
+    color: white;
+    background-color: #333;
+    padding: 40px;
+}
+
+.introduction p:first-of-type::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    line-height: 3vw;
+    padding-right: 5px;
+}
+
+.introduction h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.progression {
+    color: white;
+    background-color: #333;
+    padding: 40px;
+}
+
+.progression h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
