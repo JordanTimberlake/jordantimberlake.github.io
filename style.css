@@ -1,15 +1,13 @@
 body {
     background: #333;
-    background-color: #333;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 0.5rem
 }
 
 nav ul {
@@ -19,7 +17,9 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 20px;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid white;
 }
 
 nav ul li:last-child {
@@ -44,11 +44,6 @@ a {
 
 a:hover {
     text-decoration: wavy;
-}
-
-li {
-    border-left: 1px solid white;
-    padding-left: 10px;
 }
 
 
@@ -79,7 +74,8 @@ li {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    background-attachment: fixed;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -124,4 +120,9 @@ li {
     align-items: center;
     font-size: 50px;
     font-weight: bold;
+}
+
+.scrolled-Element {
+    scroll-margin-block-start: 4rem;
+    scroll-margin-block-end: 4rem;
 }
