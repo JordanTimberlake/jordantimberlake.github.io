@@ -123,6 +123,6 @@ a:hover {
 }
 
 .scrolled-Element {
-    scroll-margin-block-start: 4rem;
-    scroll-margin-block-end: 4rem;
+    scroll-margin-block-start: 3rem;
+    scroll-margin-block-end: 3rem;
 }
